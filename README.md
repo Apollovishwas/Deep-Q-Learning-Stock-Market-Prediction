@@ -4,17 +4,17 @@
 
 This project provides a general environment for stock market trading simulation using [OpenAI Gym](https://gym.openai.com/). 
 Training data is a close price of each day, which is downloaded from Google Finance, but you can apply any data if you want.
-Also, it contains simple Deep Q-learning and Policy Gradient from [Karpathy's post](http://karpathy.github.io/2016/05/31/rl/).
+
 
 In fact, the purpose of this project is not only providing a best RL solution for stock trading, but also building a general open environment for further research.  
-**So, please, manipulate the model architecture and features to get your own better solution.**
+
 
 ## Requirements
 
 - Python2.7 or higher
 - Numpy
 - HDF5
-- Keras with Beckend (Theano or/and Tensorflow)
+- Keras with Tensforflow Backend
 - OpenAI Gym
 
 ## Usage
